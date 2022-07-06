@@ -12,7 +12,7 @@
                 <nav>
                     <ul class="menu-list">
                         <li v-for="(link, index) in menuLinks" :key="index" :class="{ 'current': link.current === true }">
-                            <a href="#">{{ link.text }}</a>
+                            <a :href="link.url">{{ link.text }}</a>
                         </li>
                     </ul>
                     
