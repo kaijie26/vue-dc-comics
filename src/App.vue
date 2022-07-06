@@ -6,6 +6,8 @@
        <MainList />
 
     </main>
+
+    <PageFooter />
     
   </div>
 </template>
@@ -15,6 +17,7 @@
 import PageHeader from './components/PageHeader.vue'
 import MainContent from './components/MainContent.vue'
 import MainList from './components/MainList.vue'
+import PageFooter from './components/PageFooter.vue'
 
 export default {
   name: 'App',
@@ -22,6 +25,7 @@ export default {
     PageHeader,
     MainContent,
     MainList,
+    PageFooter,
     
   }
 }
