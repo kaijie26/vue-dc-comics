@@ -31,7 +31,6 @@ export default {
 section{
     background-color: black;
     height: 100px;
-    margin-top: 2px;
     line-height: 100px;
 
     .main-text{

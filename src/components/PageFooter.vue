@@ -139,7 +139,7 @@
                             <h3>
                                 FOLLOW US
                             </h3>
-                            
+
                             <!-- Social-icons -->
                             <ul class="social-list" >
                                 <li>
@@ -187,6 +187,7 @@
 <!-- JAVASCRIPT -->
 <script>
 export default {
+    name: 'PageFooter'
     
 }
 </script>

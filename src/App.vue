@@ -2,6 +2,7 @@
   <div id="app">
     <PageHeader />
     <main>
+       <JumbotronBanner />
        <MainContent />
        <MainList />
 
@@ -18,6 +19,7 @@ import PageHeader from './components/PageHeader.vue'
 import MainContent from './components/MainContent.vue'
 import MainList from './components/MainList.vue'
 import PageFooter from './components/PageFooter.vue'
+import JumbotronBanner from './components/JumbotronBanner.vue'
 
 export default {
   name: 'App',
@@ -26,6 +28,7 @@ export default {
     MainContent,
     MainList,
     PageFooter,
+    JumbotronBanner,
     
   }
 }
